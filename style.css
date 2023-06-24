@@ -1,0 +1,57 @@
+body{
+    background-image: url("./121.png");
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.button{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(117, 30, 210);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    border: 3px solid;
+}
+.drop{
+    /* display: flex;
+    justify-content: center; */
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.drop_content{
+    background-color: rgba(209, 25, 25, 0.39);
+    width: 100px;
+    text-align: center;
+    display: none;
+}
+.button:hover ~ .drop_content {
+    display: block;
+}
+.drop_content:hover{
+    display: block;
+}
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+a:hover {
+color: rgb(165, 206, 243);
+
+}
+
+.drop_content p {
+    padding-top: 10px;
+    
+    
+}
+.drop_content p :hover{
+    font-size: 25px;
+    transition: 1s;
+}
